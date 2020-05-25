@@ -303,11 +303,11 @@ header {
 .section__title--services::after {
     content: '';
     display: block;
-    width: 3em;
+    width: 2em;
     height: 1px;
-    margin: 0.5em auto len;
+    margin: 0.5em auto 1em;
     background: var(--clr-light);
-    opacity: 0;
+    opacity: 0.25;
 }
 
 .services {
@@ -315,10 +315,19 @@ header {
 }
 
 .service {
-    max-width: 500px;
+    max-width: 2000px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
+}
+
+.service a {
+    color: var(--clr-accent_red);
+    text-decoration: none;
+}
+
+.service a:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 800px) {
@@ -329,7 +338,7 @@ header {
         margin-right: auto;
     }
 
-    .services + .services {
+    .service + .service {
         margin-left: 2em;
     }
 }
@@ -343,6 +352,10 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
+}
+
+.about-me__body {
+    text-align: justify;
 }
 
 @media (min-width: 600px) {
