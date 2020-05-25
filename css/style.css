@@ -317,6 +317,8 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    padding: 30px;
+    text-align: center;
 }
 
 @media (min-width: 800px) {
@@ -472,12 +474,17 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .review-text {
     column-count: 2;
     column-gap: 40px;
     text-align: justify;
+}
+
+.review-reference {
+    text-align: left;
 }
 
 .gallery {
@@ -497,4 +504,25 @@ header {
     color: var(--clr-accent_navy);
     font-weight: var(--fw-bold);
     padding: 10px 20px;
+}
+
+.booklet {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+}
+
+.booklet__item {
+    background: var(--clr-light);
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.infographic {
+    display: inline-block;
+}
+
+.infographic__item {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
