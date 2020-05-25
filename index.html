@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisa Rosanty Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logo-small.png" alt="">
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skill</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About Me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#porto" class="nav__link">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am
+            <strong>Lisa Rosanty</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Urban Planner</p>
+        <img src="assets/lisa.jpg" alt="Lisa in Rovaniemi" class="intro__img">
+    </section>
+
+    <section class="my-services" id="skills">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Urban Planning</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+            </div>
+            <!-- / service -->
+
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+            </div>
+            <!-- / service -->
+
+            <div class="service">
+                <h3>Travel Photography</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+            </div>
+            <!-- / service -->
+        </div>
+        <!-- / services -->
+
+        <a href="#porto" class="btn">My Portfolio</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">A Little Story About Me</h2>
+        <p class="section__subtitle section__subtitle--about">Urban Planner - Web Development Newbie</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </p>
+        </div>
+
+        <img src="assets/lisa-sakura.JPG" alt="Lisa among Sakura" class="about-me__img">
+    </section>
+
+    <!-- Portfolio -->
+    <section class="my-work" id="porto">
+        <h2 class="section__title section__title--work">My Portfolio</h2>
+        <p class="section__subtitle section__subtitle--work">Works I Have Done</p>
+
+        <div class="portfolio">
+            <a href="moview-review.html" class="portfolio__item">
+                <img src="assets/world-without-water.jpg" alt="" class="portfolio__img">
+                <div class="text">
+                    <h4>Movie Review</h4>
+                </div>
+            </a>
+            <a href="children-booklet.html" class="portfolio__item">
+                <img src="assets/disaster-kid.png" alt="" class="portfolio__img">
+                <div class="text">
+                    <h4>Children Booklet</h4>
+                </div>
+            </a>
+            <a href="circular-economy.html" class="portfolio__item">
+                <img src="assets/circular-economy.png" alt="" class="portfolio__img">
+                <div class="text">
+                    <h4>Circular Economy Infographic</h4>
+                </div>
+            </a>
+            <a href="water-campaign.html" class="portfolio__item">
+                <img src="assets/water-campaign.png" alt="" class="portfolio__img">
+                <div class="text">
+                    <h4>Water Scarcity Campaign</h4>
+                </div>
+            </a>
+            <a href="smart-city.html" class="portfolio__item">
+                <img src="assets/smart-city.jpg" alt="" class="portfolio__img">
+                <div class="text">
+                    <h4>Smart City Infographic</h4>
+                </div>
+            </a>
+            <a href="gallery.html" class="portfolio__item">
+                <img src="assets/travel-photo.jpg" alt="" class="portfolio__img">
+                <div class="text">
+                    <h4>Photo Gallery</h4>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:lisarosaa@gmail.com" class="footer__link">lisarosaa@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://instagram.com/lisarosaa" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://facebook.com/lisarosaa" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/lisarosaa" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/lisarosaa" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
